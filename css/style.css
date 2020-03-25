@@ -1,0 +1,430 @@
+
+@font-face {
+  font-family:"Segoe UI";
+  src: url('../fonts/Segoe UI.woff')  format('truetype');
+}
+
+@media(max-width:1200px; min-width:700px)
+{
+body{
+background-image: url("./image.png");
+width: 100px;
+background-size: cover;
+background-repeat: no-repeat;
+position: fixed;
+}
+}
+.navbar{
+ background-color: #004163;
+ padding-left:180px;
+
+}
+
+.down{
+  position: 10px 50%;
+}
+
+li {
+
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+li:last-child {
+    margin-right: 0px;
+    padding-right:0px;
+}
+
+.search
+{
+border: 1px solid #FFFFFF;
+border-radius:43px;
+background-color: inherit;
+text-align: center;
+margin-top: 17px;
+font: Regular 25px/33px Segoe UI;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+background-image: url("../img/icon-search.png");
+ background-position:10px 50%;
+background-repeat:no-repeat;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 20px 16px;
+
+}
+
+.nav-link
+{
+  color: white;
+}
+
+
+.navbar a:hover{
+
+  text-decoration: underline;
+}
+
+.image
+{
+  float:left;
+  margin-top: 10px;
+
+
+}
+
+.drop
+{
+  padding-left:2px;
+}
+
+
+.first_menu{
+  font-family:Segoe UI;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  padding-right:70px;
+  padding-bottom: 10px;
+}
+
+.first_menu li{
+  font-weight: normal;
+  font-family: Segoe UI;
+  text-align: left;
+
+}
+
+.second_menu{
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.second_menu li{
+    font-weight: normal;
+    text-align: left;
+      font-family: Segoe UI;
+  }
+
+
+
+.buttonnav
+{
+  border:1px Solid #FFFFFF;
+  border-radius:9px;
+  background-color: inherit;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.overlay{
+  background: rgb(122, 205, 238);
+    opacity: .33;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.para
+{
+
+    padding-top: 50px;
+    text-align: left;
+    font-weight: Bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 100px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 4;
+}
+
+
+.home-banner{
+
+    width:100%;
+    float:left;
+    background:#24BB90 url("../img/image.png");
+    background-size: cover;
+        position: relative;
+}
+
+
+.card
+{
+  border-radius: 5px;
+      margin-top:80px;
+      margin-right: 80px;
+      margin-bottom: 20px;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      font-family: Segoe UI;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 15px;
+      position: relative;
+      z-index: 4;
+      box-shadow: 0px 3px 6px #0000007A;
+
+}
+
+
+
+.enter
+{
+  padding-right: 20px;
+  padding-top: 10px;
+ border-top-style:hidden;
+ border-left-style:hidden;
+ border-right-style:hidden;
+ width: 90%;
+ color: black;
+
+
+}
+input:focus,button:focus{
+  outline: none;
+}
+
+.btn-xs
+{
+  border-color: inherit;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  box-shadow: 0px 3px 6px #0000005E;
+  font-size: 13px;
+  background-color: #2095D2;
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+
+
+}
+
+
+
+.btn-forgot{
+  display: block;
+  border-style: none;
+  font-size:13px;
+  margin-right: 18px;
+  padding-bottom: 10px;
+  color:#24BB90;
+  background-color: white;
+text-align: end;
+}
+
+.btn-forgot::selection{
+  border-style: none;
+}
+
+
+
+.btn-reg
+{
+  border-style: none;
+  color:#2095D2;
+  font-size: 13px;
+  background-color: white;
+  margin-right: 15px;
+    margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.button{
+  background: #2095D2 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+border-style: none;
+  text-align: left;
+font: Semibold 30px/40px Segoe UI;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+font-size: 15px;
+font-weight: bold;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.g{
+  background-color: rgb(255, 255, 255);
+   border: none;
+   text-align: center;
+   margin-left: 10px;
+   margin-right: 50px;
+   color:rgb(255, 17, 17);
+   width: 90%;
+   text-decoration: none;
+   font-size: 13px;
+   border-radius: 25px;
+   border: 1px solid rgb(255, 8, 8);
+
+   height: 35px;
+}
+
+.f{
+  background-color: #475993;
+    height: 35px;
+    border: none;
+   margin-left: 10px;
+    text-align: center;
+    color:white;
+    margin-top: 10px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 25px;
+    border: 2px solid #475993;
+    margin-right: 50px;
+
+}
+
+p span {
+            display: block;
+        }
+
+
+.page-footer{
+  background: #004163 0% 0% no-repeat padding-box;
+    opacity: 1;
+    clear: both;
+    z-index: 2;
+}
+
+
+.footlogo{
+  padding-top: 20px;
+  margin-left:106.2px;
+}
+
+.contact
+{
+  padding-top: 30px;
+font-size: 10px;
+font-family: Arial;
+color: #FFFFFF;
+opacity: 1;
+}
+
+ .cservice
+ {
+   padding-top:30px;
+   padding-left: 20px;
+ font-size: 10px;
+ font-family: Arial;
+ color: #FFFFFF;
+ opacity: 1;
+ }
+
+ .info{
+   padding-top:30px;
+   padding-left: 20px;
+ font-size: 10px;
+ font-family: Arial;
+ color: #FFFFFF;
+ opacity: 1;
+
+ }
+
+
+.subscribe
+{
+  padding-top:45px;
+  padding-left: 20px;
+font-size: 10px;
+font-family: Arial;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+
+.subscribe-para{
+  padding-top: 5px;
+  text-align: left;
+font: Regular 14px/20px Arial;
+letter-spacing: 0;
+color: #7FC4FD;
+opacity: 1;
+}
+
+.email-foot{
+  border: 1px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+
+@media (max-width:600px) {
+  .navbar{padding-left: 0}
+
+  .card{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .navbar-toggler {
+
+ color: #ffffff;
+}
+
+h3{
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(255, 255, 255);
+}
+  p{
+    position: relative;
+    opacity: 1;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .page-footer{
+    display: block;
+    text-align: end;
+
+  }
+  .footlogo{
+    padding-top: 20px;
+    float: left;
+
+  }
+
+
+
+
+}
